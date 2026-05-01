@@ -1,0 +1,165 @@
+﻿  BankProjectUsingOOP.cpp
+C:\Users\Adem\source\repos\BankProjectUsingOOP\clsString.h(38,25): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'BankProjectUsingOOP.cpp')
+  
+C:\Users\Adem\source\repos\BankProjectUsingOOP\clsString.h(43,29): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'BankProjectUsingOOP.cpp')
+  
+C:\Users\Adem\source\repos\BankProjectUsingOOP\clsString.h(55,30): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'BankProjectUsingOOP.cpp')
+  
+C:\Users\Adem\source\repos\BankProjectUsingOOP\clsString.h(192,28): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'BankProjectUsingOOP.cpp')
+  
+C:\Users\Adem\source\repos\BankProjectUsingOOP\clsString.h(323,28): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'BankProjectUsingOOP.cpp')
+  
+C:\Users\Adem\source\repos\BankProjectUsingOOP\clsString.h(371,20): warning C4267: 'initializing': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'BankProjectUsingOOP.cpp')
+  
+C:\Users\Adem\source\repos\BankProjectUsingOOP\Global.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'BankProjectUsingOOP.cpp')
+  
+C:\Users\Adem\source\repos\BankProjectUsingOOP\clsLoginScreen.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'BankProjectUsingOOP.cpp')
+  
+C:\Users\Adem\source\repos\BankProjectUsingOOP\clsLoginScreen.h(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'BankProjectUsingOOP.cpp')
+  
+C:\Users\Adem\source\repos\BankProjectUsingOOP\clsLoginScreen.h(6,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'BankProjectUsingOOP.cpp')
+  
+C:\Users\Adem\source\repos\BankProjectUsingOOP\clsMainScreen.h(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'BankProjectUsingOOP.cpp')
+  
+C:\Users\Adem\source\repos\BankProjectUsingOOP\clsMainScreen.h(6,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'BankProjectUsingOOP.cpp')
+  
+C:\Users\Adem\source\repos\BankProjectUsingOOP\clsClientListScreen.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'BankProjectUsingOOP.cpp')
+  
+C:\Users\Adem\source\repos\BankProjectUsingOOP\clsClientListScreen.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'BankProjectUsingOOP.cpp')
+  
+C:\Users\Adem\source\repos\BankProjectUsingOOP\clsBankClient.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'BankProjectUsingOOP.cpp')
+  
+C:\Users\Adem\source\repos\BankProjectUsingOOP\clsBankClient.h(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'BankProjectUsingOOP.cpp')
+  
+C:\Users\Adem\source\repos\BankProjectUsingOOP\clsBankClient.h(20,68): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'BankProjectUsingOOP.cpp')
+  
+C:\Users\Adem\source\repos\BankProjectUsingOOP\clsBankClient.h(236,22): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'BankProjectUsingOOP.cpp')
+  
+C:\Users\Adem\source\repos\BankProjectUsingOOP\clsBankClient.h(244,22): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'BankProjectUsingOOP.cpp')
+  
+C:\Users\Adem\source\repos\BankProjectUsingOOP\clsClientListScreen.h(6,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'BankProjectUsingOOP.cpp')
+  
+C:\Users\Adem\source\repos\BankProjectUsingOOP\clsMainScreen.h(7,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'BankProjectUsingOOP.cpp')
+  
+C:\Users\Adem\source\repos\BankProjectUsingOOP\clsAddNewClientScreen.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'BankProjectUsingOOP.cpp')
+  
+C:\Users\Adem\source\repos\BankProjectUsingOOP\clsAddNewClientScreen.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'BankProjectUsingOOP.cpp')
+  
+C:\Users\Adem\source\repos\BankProjectUsingOOP\clsAddNewClientScreen.h(6,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'BankProjectUsingOOP.cpp')
+  
+C:\Users\Adem\source\repos\BankProjectUsingOOP\clsAddNewClientScreen.h(36,60): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'BankProjectUsingOOP.cpp')
+  
+C:\Users\Adem\source\repos\BankProjectUsingOOP\clsMainScreen.h(8,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'BankProjectUsingOOP.cpp')
+  
+C:\Users\Adem\source\repos\BankProjectUsingOOP\clsDeleteClientScreen.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'BankProjectUsingOOP.cpp')
+  
+C:\Users\Adem\source\repos\BankProjectUsingOOP\clsDeleteClientScreen.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'BankProjectUsingOOP.cpp')
+  
+C:\Users\Adem\source\repos\BankProjectUsingOOP\clsMainScreen.h(9,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'BankProjectUsingOOP.cpp')
+  
+C:\Users\Adem\source\repos\BankProjectUsingOOP\clsUpdateClientScreen.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'BankProjectUsingOOP.cpp')
+  
+C:\Users\Adem\source\repos\BankProjectUsingOOP\clsUpdateClientScreen.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'BankProjectUsingOOP.cpp')
+  
+C:\Users\Adem\source\repos\BankProjectUsingOOP\clsUpdateClientScreen.h(36,60): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'BankProjectUsingOOP.cpp')
+  
+C:\Users\Adem\source\repos\BankProjectUsingOOP\clsMainScreen.h(10,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'BankProjectUsingOOP.cpp')
+  
+C:\Users\Adem\source\repos\BankProjectUsingOOP\clsFindClientScreen.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'BankProjectUsingOOP.cpp')
+  
+C:\Users\Adem\source\repos\BankProjectUsingOOP\clsFindClientScreen.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'BankProjectUsingOOP.cpp')
+  
+C:\Users\Adem\source\repos\BankProjectUsingOOP\clsMainScreen.h(11,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'BankProjectUsingOOP.cpp')
+  
+C:\Users\Adem\source\repos\BankProjectUsingOOP\clsTransactionsScreen.h(7,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'BankProjectUsingOOP.cpp')
+  
+C:\Users\Adem\source\repos\BankProjectUsingOOP\clsTransactionsScreen.h(8,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'BankProjectUsingOOP.cpp')
+  
+C:\Users\Adem\source\repos\BankProjectUsingOOP\clsTransactionsScreen.h(9,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'BankProjectUsingOOP.cpp')
+  
+C:\Users\Adem\source\repos\BankProjectUsingOOP\clsUtil.h(62,5): warning C4102: 'defualt': unreferenced label
+  (compiling source file 'BankProjectUsingOOP.cpp')
+  
+C:\Users\Adem\source\repos\BankProjectUsingOOP\clsTotalBalancesScreen.h(52,54): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'BankProjectUsingOOP.cpp')
+  
+C:\Users\Adem\source\repos\BankProjectUsingOOP\clsMainScreen.h(12,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'BankProjectUsingOOP.cpp')
+  
+C:\Users\Adem\source\repos\BankProjectUsingOOP\clsManageUsers.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'BankProjectUsingOOP.cpp')
+  
+C:\Users\Adem\source\repos\BankProjectUsingOOP\clsManageUsers.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'BankProjectUsingOOP.cpp')
+  
+C:\Users\Adem\source\repos\BankProjectUsingOOP\clsDeleteUserScreen.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'BankProjectUsingOOP.cpp')
+  
+C:\Users\Adem\source\repos\BankProjectUsingOOP\clsDeleteUserScreen.h(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'BankProjectUsingOOP.cpp')
+  
+C:\Users\Adem\source\repos\BankProjectUsingOOP\clsManageUsers.h(10,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'BankProjectUsingOOP.cpp')
+  
+C:\Users\Adem\source\repos\BankProjectUsingOOP\clsUpdateUserScreen.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'BankProjectUsingOOP.cpp')
+  
+C:\Users\Adem\source\repos\BankProjectUsingOOP\clsUpdateUserScreen.h(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'BankProjectUsingOOP.cpp')
+  
+C:\Users\Adem\source\repos\BankProjectUsingOOP\clsManageUsers.h(11,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'BankProjectUsingOOP.cpp')
+  
+C:\Users\Adem\source\repos\BankProjectUsingOOP\clsFindUserScreen.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'BankProjectUsingOOP.cpp')
+  
+C:\Users\Adem\source\repos\BankProjectUsingOOP\clsFindUserScreen.h(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'BankProjectUsingOOP.cpp')
+  
+C:\Users\Adem\source\repos\BankProjectUsingOOP\clsManageUsers.h(12,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'BankProjectUsingOOP.cpp')
+  
+C:\Users\Adem\source\repos\BankProjectUsingOOP\clsBankClient.h(199,1): warning C4715: 'clsBankClient::Save': not all control paths return a value
+C:\Users\Adem\source\repos\BankProjectUsingOOP\clsBankClient.h(238,1): warning C4715: 'clsBankClient::Deposit': not all control paths return a value
+C:\Users\Adem\source\repos\BankProjectUsingOOP\clsBankClient.h(246,1): warning C4715: 'clsBankClient::Withdraw': not all control paths return a value
+C:\Users\Adem\source\repos\BankProjectUsingOOP\clsUser.h(308,1): warning C4715: 'clsUser::Save': not all control paths return a value
+  BankProjectUsingOOP.vcxproj -> C:\Users\Adem\source\repos\BankProjectUsingOOP\x64\Debug\BankProjectUsingOOP.exe
