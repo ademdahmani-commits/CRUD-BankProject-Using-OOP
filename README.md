@@ -5,6 +5,14 @@ The project simulates basic banking operations through a console-based interface
 
 ## Features
 
+* Client Management
+
+  * Show Client List
+  * Add new client
+  * Delete client
+  * Update client information
+  * Find client
+ 
 * User Management
 
   * List users
@@ -50,8 +58,9 @@ The project is divided into multiple header files, each responsible for a specif
 ## Notes
 
 * This project is console-based (CMD)
-* Data handling is simplified (no database integration)
+* Data handling is simplified file system (no database integration)
 * Intended for learning and practicing OOP design
+* To Login use (UserName : Admin / Password : 1234)
 
 ---
 
