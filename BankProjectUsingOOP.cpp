@@ -8,7 +8,7 @@ using namespace::std;
 int main() {
 
 
-	//clsMoneyTransfer::ShowMoneyTransferScreen();
+	
 
 	while (true) {
 		if (!clsLoginScreen::_ShowLoginScreen()) {

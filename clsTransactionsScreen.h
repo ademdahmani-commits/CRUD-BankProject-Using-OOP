@@ -40,8 +40,8 @@ class clsTransactionsScreen : protected clsScreen
     }
 
     static void _ShowMoneyTransferScreen() {
-        cout << "\nMoney Transfer Screen Will be here...\n";
-        //clsMoneyTransfer::ShowMoneyTransferScreen();
+        //cout << "\nMoney Transfer Screen Will be here...\n";
+        clsMoneyTransfer::ShowMoneyTransferScreen();
     }
 
     static void _GoBackToTransactionsMenue() {

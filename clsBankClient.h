@@ -244,5 +244,15 @@ public:
 		_AccountBalance -= Amount;
 		Save();
 	}
+
+	bool MoneyTransfer(double Amount , clsBankClient& TransferDestination) {
+		if (Amount > AccountBalance || Amount < 0) {
+			return false;
+		}
+		Withdraw(Amount);
+		TransferDestination.Deposit(Amount);
+		return true;
+	}
+
 };
 
