@@ -94,7 +94,6 @@ class clsManageUsers : protected clsScreen
             clsManageUsers::ShowManageUsersMenue();
             break;
         case clsManageUsers::eMainMenue:
-           
             break;
         }
     }

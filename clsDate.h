@@ -14,7 +14,9 @@ private:
 	short _Day = 1;
 	short _Month = 1;
 	short _Year = 1900;
-
+	short _Sec = 1;
+	short _Min = 1;
+	short _Hour = 1;
 public:
 
 	clsDate()
@@ -24,6 +26,9 @@ public:
 		_Day = now->tm_mday;
 		_Month = now->tm_mon + 1;
 		_Year = now->tm_year + 1900;
+		_Sec = now->tm_sec;
+		_Min = now->tm_min;
+		_Hour = now->tm_hour;
 	}
 
 	clsDate(string sDate)
@@ -1125,7 +1130,13 @@ public:
 		return CompareDates(*this, Date2);
 	}
 
+	static string GetTimeNow(clsDate Time) {
+		return to_string(Time._Hour) + ":" + to_string(Time._Min) + ":" + to_string(Time._Sec);
+	}
 
+	string GetTimeNow() {
+		return GetTimeNow(*this);
+	}
 
 };
 
