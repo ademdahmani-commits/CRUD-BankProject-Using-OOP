@@ -1134,6 +1134,10 @@ public:
 		return to_string(Time._Hour) + ":" + to_string(Time._Min) + ":" + to_string(Time._Sec);
 	}
 
+	static string GetDateAndTimeNow(clsDate Time) {
+		return DateToString(Time) + " - " + to_string(Time._Hour) + ":" + to_string(Time._Min) + ":" + to_string(Time._Sec);
+	}
+
 	string GetTimeNow() {
 		return GetTimeNow(*this);
 	}

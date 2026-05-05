@@ -89,6 +89,39 @@ class clsBankClient : public clsPerson
 		_SaveNewClientToFile(*this);
 	}
 
+	string _PrepareTransferLogRecord(float Amount, clsBankClient DestinationClient,
+		string UserName, string Seperator = "#//#")
+	{
+		string TransferLogRecord = "";
+		TransferLogRecord += clsDate::GetDateAndTimeNow(clsDate()) + Seperator;
+		TransferLogRecord += AccountNumber() + Seperator;
+		TransferLogRecord += DestinationClient.AccountNumber() + Seperator;
+		TransferLogRecord += to_string(Amount) + Seperator;
+		TransferLogRecord += to_string(AccountBalance) + Seperator;
+		TransferLogRecord += to_string(DestinationClient.AccountBalance) + Seperator;
+		TransferLogRecord += UserName;
+		return TransferLogRecord;
+	}
+
+	void _RegisterTransferLog(float Amount, clsBankClient DestinationClient, string UserName)
+	{
+
+		string stDataLine = _PrepareTransferLogRecord(Amount, DestinationClient, UserName);
+
+		fstream MyFile;
+		MyFile.open("TransferLog.txt", ios::out | ios::app);
+
+		if (MyFile.is_open())
+		{
+
+			MyFile << stDataLine << endl;
+
+			MyFile.close();
+		}
+
+	}
+
+	
 public:
 	clsBankClient(enMode Mode, string FirstName, string LastName,
 		string Email, string Phone, string AccountNumber, string PinCode,
@@ -245,13 +278,37 @@ public:
 		Save();
 	}
 
-	bool MoneyTransfer(double Amount , clsBankClient& TransferDestination) {
+	bool MoneyTransfer(double Amount , clsBankClient& DestinationClient , string UserName) {
 		if (Amount > AccountBalance || Amount < 0) {
 			return false;
 		}
 		Withdraw(Amount);
-		TransferDestination.Deposit(Amount);
+		DestinationClient.Deposit(Amount);
+		_RegisterTransferLog(Amount, DestinationClient, UserName);
 		return true;
+	}
+
+	struct stClientTransferLog {
+		string DateAndTime;
+		string AccountNumber1;
+		string AccountNumber2;
+		float Amount;
+		float AccountBalance1;
+		float AccountBalance2;
+		string User;
+	};
+
+	static clsBankClient::stClientTransferLog ConvRegisterTransferToData(string Line) {
+		vector <string> Register = clsString::Split(Line);
+		clsBankClient::stClientTransferLog Client;
+		Client.DateAndTime = Register[0];
+		Client.AccountNumber1 = Register[1];
+		Client.AccountNumber2 = Register[2];
+		Client.Amount = stoi(Register[3]);
+		Client.AccountBalance1 = stoi(Register[4]);
+		Client.AccountBalance2 = stoi(Register[5]);
+		Client.User = Register[6];
+		return Client;
 	}
 
 };

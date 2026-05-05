@@ -50,6 +50,7 @@ class clsLoginScreen : protected clsScreen
 public:
 
 	static bool _ShowLoginScreen() {
+		CurrentUser = clsUser::Find("","");
 		system("cls");
 		clsScreen::_DrawScreenHeader("Login Screen");
 		return _LoginScreen();

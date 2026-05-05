@@ -3,6 +3,7 @@
 #include "clsScreen.h"
 #include "clsUser.h"
 #include "clsBankClient.h";
+#include "Global.h";
 class clsMoneyTransfer : clsScreen
 {
 	static void _PrintClientCard(string AccountNumber) {
@@ -31,7 +32,7 @@ class clsMoneyTransfer : clsScreen
 			cin >> YorN;
 			clsInputValidate::CheckYesOrNO(YorN);
 			if (YorN == 'Y' || YorN == 'y') {
-				while (!Client1.MoneyTransfer(MoneyToTransfer, Client2)) {
+				while (!Client1.MoneyTransfer(MoneyToTransfer, Client2 , CurrentUser.GetUserName())) {
 					cout << "Inssuficient Amount, Pls Enter Another Amount : ";
 					MoneyToTransfer = clsInputValidate::ReadDblNumber();
 				}
@@ -50,7 +51,7 @@ class clsMoneyTransfer : clsScreen
 
 public:
 	static void ShowMoneyTransferScreen() {
-		clsScreen::_DrawScreenHeader("Money Transfer Screen");
+		clsScreen::_DrawScreenHeader("\tMoney Transfer Screen");
 		string AccountNumber;
 		clsBankClient Client1 = _ReadAccountNumber(AccountNumber, "Pls Enter account Number To Transfer From : ");
 		_PrintClientCard(Client1.AccountNumber());

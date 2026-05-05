@@ -311,7 +311,7 @@ public:
       return CountVowels(_Value);
   }
 
-   static vector<string> Split(string S1, string Delim)
+   static vector<string> Split(string S1, string Delim = "#//#")
   {
 
       vector<string> vString;
@@ -340,10 +340,10 @@ public:
 
   }
 
-   vector<string> Split( string Delim)
+   /*vector<string> Split(string Delim)
   {
       return Split(_Value, Delim);
-  }
+  }*/
 
    static string TrimLeft(string S1)
   {
