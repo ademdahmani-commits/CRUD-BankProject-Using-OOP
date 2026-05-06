@@ -12,6 +12,7 @@ The project simulates basic banking operations through a console-based interface
   * Delete client
   * Update client information
   * Find client
+  * Login Register
  
 * User Management
 
@@ -26,6 +27,8 @@ The project simulates basic banking operations through a console-based interface
   * Deposit
   * Withdraw
   * View total balances
+  * Money Transfer
+  * Transfer Log
 
 * Menu-driven navigation system
 
