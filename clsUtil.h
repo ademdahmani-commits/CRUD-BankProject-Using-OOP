@@ -278,6 +278,20 @@ public:
 
 
    }
+   static string EncryptClientPass(string Text, short key = 12) {
+       short i;
+       for (i = 0; i < Text.length(); i++) {
+           Text[i] = Text[i] + key;
+       }
+       return Text;
+   }
+   static string DecryptClientPass(string Text, short key = 12) {
+       short i;
+       for (i = 0; i < Text.length(); i++) {
+           Text[i] = Text[i] - key;
+       }
+       return Text;
+   }
 
 
 

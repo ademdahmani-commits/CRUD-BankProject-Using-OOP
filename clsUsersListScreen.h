@@ -15,7 +15,12 @@ private:
         cout << "| " << setw(25) << left << User.FullName();
         cout << "| " << setw(12) << left << User.Phone;
         cout << "| " << setw(20) << left << User.Email;
+        if (CurrentUser.UserName == "Admin") {
+            cout << "| " << setw(10) << left << clsUtil::DecryptClientPass(User.Password);
+        }
+        else {
         cout << "| " << setw(10) << left << User.Password;
+        }
         cout << "| " << setw(12) << left << User.Permissions;
 
     }

@@ -8,12 +8,18 @@ class clsClientListScreen : protected clsScreen
 {
 	static void _PrintClientRecordLine(clsBankClient &Client)
 	{
-
+		
 		cout << "| " << setw(15) << left << Client.AccountNumber();
 		cout << "| " << setw(20) << left << Client.FullName();
 		cout << "| " << setw(12) << left << Client.Phone;
 		cout << "| " << setw(20) << left << Client.Email;
+		if (CurrentUser.UserName == "Admin") {
+			cout << "| " << setw(10) << left << clsUtil::DecryptClientPass(Client.PinCode);
+		}
+		else
+		{
 		cout << "| " << setw(10) << left << Client.PinCode;
+		}
 		cout << "| " << setw(12) << left << Client.AccountBalance;
 
 	}

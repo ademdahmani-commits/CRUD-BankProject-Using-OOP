@@ -97,7 +97,7 @@ class clsAddNewUserScreen : clsScreen
         User.Phone = clsInputValidate::ReadString();
 
         cout << "\nEnter Password: ";
-        User.Password = clsInputValidate::ReadString();
+        User.Password = clsUtil::EncryptClientPass(clsInputValidate::ReadString());
 
         cout << "\nEnter Permission: ";
         User.Permissions = _ReadPermissionsToSet();

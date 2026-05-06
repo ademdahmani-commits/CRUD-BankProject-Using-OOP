@@ -14,7 +14,7 @@ class clsDeleteUserScreen : clsScreen
 		cout << "\nEmail       : " << User.Email;
 		cout << "\nPhone       : " << User.Phone;
 		cout << "\nUser Name   : " << User.UserName;
-		cout << "\nPassword    : " << User.Password;
+		cout << "\nPassword    : " << clsUtil::EncryptClientPass(User.Password);
 		cout << "\nPermissions : " << User.Permissions;
 		cout << "\n___________________\n";
 	}
@@ -27,6 +27,10 @@ public:
 		while (!clsUser::IsUserExist(UserName)) {
 			cout << "User Not Found, Try Again : ";
 			UserName = clsInputValidate::ReadString();
+		}
+		if (UserName == "Admin") {
+			cout << "\nU Can't Delete Admin"<<endl;
+			return;
 		}
 		clsUser User1 = clsUser::Find(UserName);
 		_PrintUser(User1);

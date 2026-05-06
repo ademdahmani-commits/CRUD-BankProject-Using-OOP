@@ -6,6 +6,7 @@
 #include <vector>
 #include <fstream>
 #include "clsDate.h"
+#include "clsUtil.h"
 using namespace std;
 class clsUser : public clsPerson
 {
@@ -250,7 +251,7 @@ public:
             while (getline(MyFile, Line))
             {
                 clsUser User = _ConvertLinetoUserObject(Line);
-                if (User.UserName == UserName && User.Password == Password)
+                if (User.UserName == UserName && clsUtil::DecryptClientPass(User.Password) == Password)
                 {
                     MyFile.close();
                     return User;

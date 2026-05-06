@@ -3,6 +3,7 @@
 #include <fstream>
 #include "clsPerson.h";
 #include "clsString.h";
+#include "clsUtil.h";
 class clsBankClient : public clsPerson
 {
 	enum enMode {EmptyMode = 0, UpdateMode = 1, AddNewMode = 2};
@@ -46,7 +47,7 @@ class clsBankClient : public clsPerson
 		FullObject += Client.Email + Seperator;
 		FullObject += Client.Phone + Seperator;
 		FullObject += Client.AccountNumber() + Seperator;
-		FullObject += Client.PinCode + Seperator;
+		FullObject += clsUtil::EncryptClientPass(Client.PinCode) + Seperator;
 		FullObject += to_string(Client.AccountBalance);
 		return FullObject;
 	}
@@ -75,8 +76,8 @@ class clsBankClient : public clsPerson
 		}
 		_SaveClientsDataToFile(_vClients);
 	}
-	
-	static void _SaveNewClientToFile(clsBankClient Client) {
+
+	static void _SaveNewClientToFile(clsBankClient &Client) {
 		fstream MyFile;
 		MyFile.open("Clients.txt", ios::app);
 		if (MyFile.is_open()) {
@@ -311,5 +312,6 @@ public:
 		return Client;
 	}
 
+	
 };
 
