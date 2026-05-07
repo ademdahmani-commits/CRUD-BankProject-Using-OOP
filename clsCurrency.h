@@ -15,7 +15,7 @@ class clsCurrency
 
 	static clsCurrency _ConvertLineIntoCurrencyObject(string Line) {
 		vector <string> vObject = clsString::Split(Line);
-		return clsCurrency(UpdateMode, vObject[0], vObject[1], vObject[2], stoi(vObject[3]));
+		return clsCurrency(UpdateMode, vObject[0], vObject[1], vObject[2], stof(vObject[3]));
 	}
 	static string _ConvertCurrencyObjectIntoLine(clsCurrency Object , string Sep ="#//#") {
 		string CovertedObj;
