@@ -30,7 +30,7 @@ protected:
         cout << "\n\t\t\t\t\t______________________________________\n\n";
        cout << "\t\t\t\t\t  " << "User : " << CurrentUser.UserName;
        cout << "\n\t\t\t\t\t  " << "Date : " << clsDate::DateToString(clsDate()) << "\n" << endl;
-    
+       cout << "\t\t\t\t\t______________________________________\n\n";
     }
 };
 
