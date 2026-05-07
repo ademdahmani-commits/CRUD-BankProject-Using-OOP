@@ -29,7 +29,7 @@ The project simulates basic banking operations through a console-based interface
   * Update Rate
   * Currency Calculator
  
-  * Transactions
+* Transactions
 
   * Deposit
   * Withdraw
