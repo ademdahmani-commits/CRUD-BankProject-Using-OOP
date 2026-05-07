@@ -22,7 +22,14 @@ The project simulates basic banking operations through a console-based interface
   * Update user information
   * Find user
 
-* Transactions
+* Currency Exhange
+
+  * List Currencies
+  * Find Currency
+  * Update Rate
+  * Currency Calculator
+ 
+  * Transactions
 
   * Deposit
   * Withdraw
