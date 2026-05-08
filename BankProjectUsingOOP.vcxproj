@@ -165,7 +165,6 @@
     <ClInclude Include="clsWithdrawScreen.h" />
     <ClInclude Include="Global.h" />
     <ClInclude Include="clsLoginRegisterScreen.h" />
-    <ClInclude Include="resource.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -36,7 +36,7 @@ class clsFindCurrencyScreen :clsScreen
         string country = clsInputValidate::ReadString();
         clsCurrency Currency = clsCurrency::FindByCountry(country);
         while (Currency.isEmpty()) {
-            cout << "Code Not Found, Try Another One : ";
+            cout << "Country Not Found, Try Another One : ";
             country = clsInputValidate::ReadString();
             Currency = clsCurrency::FindByCountry(country);
         }
