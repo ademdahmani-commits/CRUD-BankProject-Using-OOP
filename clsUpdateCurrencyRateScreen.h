@@ -47,6 +47,8 @@ public:
         clsInputValidate::CheckYesOrNO(YorN);
         if (YorN == 'y' || YorN == 'Y') {
             _UpdateRate(code);
+            cout << "Currency Updated Successfully" << endl;
+            _PrintCurrency(clsCurrency::FindByCode(code));
         }
         else {
             cout << "Update Rate Cancelled" <<endl;

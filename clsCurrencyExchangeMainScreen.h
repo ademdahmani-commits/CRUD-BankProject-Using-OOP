@@ -6,6 +6,7 @@
 #include "clsCurrenciesListScreen.h"
 #include "clsFindCurrencyScreen.h"
 #include "clsUpdateCurrencyRateScreen.h"
+#include "clsCurrencyCalculatorScreen.h" 
 class clsCurrencyExchangeMainScreen : clsScreen
 {
 	enum enCurrenciesMainMenueOptions { ListCurrencies = 0 , FindCurrency =1,
@@ -24,7 +25,8 @@ class clsCurrencyExchangeMainScreen : clsScreen
 		clsUpdateCurrencyRateScreen::ShowUpdateCurrencyRateScreen();
 	}
 	static void _CurrencyCalculator() {
-		cout << "Currency Calculator Screen Will Be Here";
+		//cout << "Currency Calculator Screen Will Be Here";
+		clsCurrencyCalculatorScreen::ShowCurrencyCalculatorScreen();
 	}
 	static void _MainMenu() {
 
